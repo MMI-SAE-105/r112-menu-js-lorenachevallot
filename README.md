@@ -57,7 +57,7 @@ Les `____` sont à remplacer par les termes corrects.
 Trouvez l'élément `nav` de classe CSS `menu` :
 
 ```js
-nav = document.querySelector("______");
+nav = document.querySelector(".menu");
 ```
 
 Doit afficher dans la console :
@@ -69,7 +69,7 @@ Doit afficher dans la console :
 Maintenant changer à `false` l'attribut `"aria-hidden"` de l'élément référencé par la variable `nav`.
 
 ```js
-nav.aria______ = ____;
+nav.ariahidden = false;
 ```
 
 La page doit afficher le menu
@@ -79,14 +79,15 @@ La page doit afficher le menu
 Trouvez l'élément de classe CSS `menu-btn` :
 
 ```js
-toggle = ________.__________("________");
+toggle = document.querySelector(".menu-btn");
 ```
 
 Maintenant changer à `true` l'attribut `"aria-expanded"` de l'élément référencé par la variable `toggle`.
 
 ```js
-toggle______________________________;
+toggle.ariaExpanded = true;
 ```
+
 
 Le bouton doit tourner de 90 degrés.
 
@@ -96,8 +97,9 @@ Dans le fichier [script.js](/src/js/script.js), compléter le code suivant :
 
 ```js
 // On cible les éléments à modifier
-const toggle = _____________________;
-const nav = ______________________;
+const toggle = ;
+const nav = ;
+
 
 // Ajoute un écouteur d'événements à l'élément 'toggle' qui écoute les événements 'click'.
 toggle.____________("______", () => {
