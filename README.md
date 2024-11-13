@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : Chevallot
+- prénom : Loréna
+- URL Netlify : https://calm-tartufo-ad0644.netlify.app
 
 # Travail
 
